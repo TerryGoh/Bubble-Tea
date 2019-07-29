@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" id="remYou">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Terry's Bubble Tea</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <!--  Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS-->
+    <script src="./jquery/jquery-3.3.1.min.js"></script>
+    <script src="./popper/popper.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="bt_overlay_1.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!--
+    <div class="row">
+        <div class="column">
+            <img src="our_shop_1.jpg" alt="Bubble Tea" height="280px">
+        </div>
+    </div>
+-->
+
+    <body>
+        <header class="container-fluid p-0 text-center fixed-top">
+            Remember You!!!</header>
+        <p></p>
+        <nav class="nav navbar navbar-dark navbar-expand-sm sticky-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" data-target="#Navbar" data-toggle="collapse" aria-expanded="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line" style="margin-bottom: 0;"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="Navbar" style="margin-top: 5em">
+                    <ul class="navbar-nav flex-column flex-md-row mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html" id="nav_font">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="promo.html" id="nav_font">Promotions!!</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" id="nav_font">We Care!!</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" id="nav_font">Branches</a></li>
+                    </ul>
+                </div>
+        </nav>
+        <p></p>
+        <div class="container">
+
+            <section>
+                <span>
+                    Please registered you details and by giving us your feedback and suggestions you stand a chance to
+                    receive a
+                    $50 bubble tea credit with no expiry date.
+                </span>
+                <div style="text-align: center">
+                    We really appericate all our customers with LOVE and CARE…<br> This is our way to say
+                    Thank You for enjoying our special TEA only for YOU ;)
+                </div>
+
+                <p></p>
+                <form action="feedBackResponse.html" method="POST" id="feedback_form">
+                    <!--label+input:t-->
+                    <div class="form-group">
+                        <label for="nameBox">Name *</label>
+                        <input type="text" name="custName" id="nameBox" placeholder="First and Last Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneBox">Phone *</label>
+                        <input type="text" name="custPhone" id="phoneBox" placeholder="88888888" required
+                            pattern="^\d{8}$">
+                    </div>
+                    <div class="form-group">
+                        <label for="DOB">Date Of Birth*</label>
+                        <input type="date" name="dob" id="DOB">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Enter email" name="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="feedbackTxt">Feedback / Suggestion</label>
+                        <textarea class="form-control rounded-0" id="feedbackTxt" rows="3"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary mb-4">Submit</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </body>
+    <section>
+        <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left ">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <ul class="list-unstyled text-center" id="footer_font">
+                        <li><a href="javascript:void();">Galleries</a></li>
+                        <li><a href="javascript:void();">Events</a></li>
+                        <li><a href="javascript:void();">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <ul class="list-unstyled text-center" id="footer_font">
+                        <li><a href="javascript:void();">Getting Started</a></li>
+                        <li><a href="javascript:void();">FAQ</a></li>
+                        <li><a href="javascript:void();">Interest Groups</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <ul class="list-unstyled text-center" id="footer_font">
+                        <li><a href="javascript:void();">About Us</a></li>
+                        <li><a href="javascript:void();">Privacy</a></li>
+                        <li><a href="javascript:void();">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</html>

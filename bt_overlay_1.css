@@ -1,0 +1,94 @@
+
+/* -----layout and style for tooltip ----- */
+
+
+ /* -----layout and style for index.html ----- */
+
+ html#index {
+   background-image: url(./image/back_ground.jpg); 
+} 
+
+html#index body {
+   background-image: url(./image/back_ground.jpg);  
+}
+
+html#index header {
+   color :aqua ;
+   font-weight: bold;
+   font-size: 2em;
+   border-radius: 10px;
+   display : block;
+   text-align: center;
+   opacity: 0.9;  
+}
+
+
+/* --------------------------------*/ 
+/* layout and style for promo.html */
+/* --------------------------------*/ 
+html#promo {
+   background-image: url(./image/back_ground_3.jpg); 
+} 
+
+html#promo body {
+   background-image: url(./image/back_ground_3.jpg);  
+}
+
+html#promo header {
+   color : blue ;
+   font-weight: bold;
+   font-size: 2em;
+   border-radius: 10px;
+   display : block;
+   text-align: center;
+   opacity: 0.9;  
+}
+
+/* --------------------------------*/ 
+
+/* --------------------------------*/ 
+/* layout and style for remYou.html */
+/* --------------------------------*/ 
+
+html#remYou{
+   background-image: url(./image/main_picture.jpg); 
+} 
+
+html#remYou body {
+   background-color: lightgoldenrodyellow;
+   opacity: 0.8; 
+} 
+
+html#remYou header {
+   color : lightcoral ;
+   font-weight: bold;
+   font-size: 4em;
+   border-radius: 10px;
+   display : block;
+   text-align: center;
+}
+
+/* --------------------------------*/ 
+
+
+/* -------------------------------------------*/ 
+/* layout and style for feedbackResponse.html */
+/* -------------------------------------------*/ 
+
+
+html#feedbackResponse body
+{
+   background-image: url(./image/main_picture.jpg);
+   opacity: 0.8;
+}
+
+html#feedbackResponse header {
+   font-size: 2em;
+   text-align: center;
+   color : white ;  
+   background-color: black ;
+   width : 80% ;
+   opacity: 0.6;
+}
+
+
