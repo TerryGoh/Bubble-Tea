@@ -2,7 +2,7 @@
   "name": "Bubble-Tea",
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
-  "display": "browser",
+  "display": "standalone",
   "Scope": "/",
   "start_url": "https://terrygoh.github.io/Bubble-Tea/index.html",
   "icons": [
